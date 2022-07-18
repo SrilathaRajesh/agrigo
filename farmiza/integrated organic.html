@@ -1,0 +1,190 @@
+<!-- <!doctype html> -->
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./images/farmizaicon.png" rel="icon">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>FARMIZA</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="./images/farmaricon.jpg" alt="icon" width="40" height="40">
+            <a id="name" class="navbar-brand" href="./farmiza.html">Agrific Orgo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./farmers.html">Farmers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Farming Types
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./Organic farming.html"> Organic farming </a></li>
+                            <li><a class="dropdown-item" href="./Industrial farming.html">Industrial farming</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./Subsistence farming.html">Subsistence farming</a></li>
+                        </ul>
+                    </li>
+                   <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log-in</a>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">LOG-IN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us</a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">CONTACT US</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main class="indus">
+        <div class="row g-0">
+            <div class="col-6 col-md-3">
+                <section class="organiccol3">
+                    <h5><a href="./Organic farming.html">Organic farming</a> </h5><br>
+                    <ul>
+                        <li><a href="./integrated organic.html">Integrated organic farming.</a></li><br>
+                        <li><a href="./Pure organic.html"> Pure organic farming.</a></li><br>
+                    </ul>
+                    <h5><a href="./Industrial farming.html">Industrial Farming</a></h5>
+                    <h5><a href="./Subsistence farming.html">Subsistence Farming</a></h5>
+                    <ul>
+                        <li><a href="./Shifting agriculture sub.html">Shifting agriculture.</a></li><br>
+                        <li><a href="./Primitive farming sub.html">Primitive farming.</a></li><br>
+                        <li><a href="./Nomadic herding sub.html">Nomadic herding.</a></li><br>
+                        <li><a href="./Intensive subsistence farming sub.html">Intensive subsistence farming.</a></li><br>
+                    </ul>
+                </section>
+            </div>
+            <div class="col-sm-6 col-md-8">
+                <h2 class="heading">Integrated Organic farming</h2>
+                <hr>
+                <p class="organiccol8"> <img style="float: right;" height="200" src="./images/integrated.jpg"
+                        alt="photo">Integrated Farming - UNI 11233-2009 new European agriculture organic standard (IF),
+                    integrated production or Integrated Farm Management is a whole farm management system which aims to
+                    deliver more sustainable agriculture. It is a dynamic approach which can be applied to any farming
+                    system around the world. It involves attention to detail and continuous improvement in all areas of
+                    a farming business through informed management processes. Integrated Farming combines the best of
+                    modern tools and technologies with traditional practices according to a given site and situation,
+                    often employing many cultivation techniques in a small growing area.
+                </p>
+                <h4>History</h4>
+                <hr>
+                <p>Integrated Pest Management can be seen as starting point for a holistic approach to agricultural
+                    production. Following the excessive use of crop protection chemicals, first steps in IPM were taken
+                    in fruit production at the end of the 1950s. The concept was then further developed globally in all
+                    major crops. On the basis of results of the system-oriented IPM approach, models for Integrated Crop
+                    Management were developed. Initially, animal husbandry was not seen as part of such integrated
+                    approaches (Lütke Entrup et al., 1998 1).
+
+                    In the years to follow, various national and regional initiatives and projects were formed. These
+                    include LEAF (Linking Environment And Farming) in the UK, FNL (Fördergemeinschaft Nachhaltige
+                    Landwirtschaft e.V.)[8] in Germany, FARRE (Forum des Agriculteurs Responsables Respectueux de
+                    l'Environnement)[7] in France, FILL (Fördergemeinschaft Integrierte Landbewirtschaftung Luxemburg)
+                    or OiB (Odling i Balans)[9] in Sweden. However, there are few if any figures on the uptake of
+                    Integrated Farming in the major crops throughout Europe for example, leading to a recommendation by
+                    the European Economic and Social Committee in February 2014, that the EU should carry out an
+                    in-depth analysis of integrated production in Europe in order to obtain insights into the current
+                    situation and potential developments.[10] There is evidence, however, that between 60 and 80% of
+                    pome, stone and soft fruits were grown, controlled and marketed according to "Integrated Production
+                    Guidelines" in 1999 already in Germany for example.</p>
+            </div>
+        </div>
+    </main>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
